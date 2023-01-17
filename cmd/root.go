@@ -6,8 +6,7 @@ import (
 
 var rootCmd = &cobra.Command{
 	Use:   "ocm-api cli",
-	Short: "CLI for inspecting OCM APIs",
-	Long:  "CLI for inspecting OCM APIs",
+	Short: "CLI for querying OCM API information",
 }
 
 func Execute() {
